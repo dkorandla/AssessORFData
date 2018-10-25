@@ -7,10 +7,12 @@ Description: This package provides access to mapping and results objects generat
     package, as well as the genome sequences for the strains corresponding to those objects.
 Depends: R (>= 3.5.0)
 Imports: DECIPHER, utils
-Suggests: AssessORF
+Suggests: AssessORF, BiocStyle, knitr, rmarkdown
 biocViews: OrganismData, Bacillus_subtilis_Data, Escherichia_coli_Data, Pseudomonas_aeruginosa_Data,
     Staphylococcus_aureus_Data, Genome, Proteome, SequencingData
 License: GPL-3
 Encoding: UTF-8
 LazyData: FALSE
+NeedsCompilation: no
 RoxygenNote: 6.1.0
+VignetteBuilder: knitr

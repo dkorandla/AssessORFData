@@ -7,7 +7,6 @@
 \format{Character vector of length 20}
 \usage{
 data(AssessORF_StrainIDs)
-allStrains <- GetStrainIDs()
 }
 \description{
 Vector of strain IDs, which describes the strains for which the

@@ -69,7 +69,8 @@ SaveGenomeToPath <- function(strainID, filePath) {
   DB2Seqs(filePath,
           genomesFile,
           identifier = as.character(strainIdx),
-          type = "DNAStringSet")
+          type = "DNAStringSet",
+          verbose = FALSE)
 
   invisible(filePath)
 }

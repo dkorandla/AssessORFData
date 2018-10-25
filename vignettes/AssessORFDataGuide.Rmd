@@ -31,9 +31,11 @@ AssessORFData::GetGeneSources()
 
 # Getting the Objects
 
-While the \code{data} function can be used to pull the desired object from the package into the user's workspace, using the the \code{data} function may be inconvenient for some users because there are 100 mapping and results objects, each of which has a long name. For this reason, AssessORFData has alternative functions, \code{GetDataMapObj} and \code{GetResultsObj}, to accomplish a similar task. These functions allow the user to get the object of interest and then save it in their workspace under a different name. Examples on how to use the two functions are described below:
+While the `data` function can be used to pull the desired object from the package into the user's workspace, using the the `data` function may be inconvenient for some users because there are 100 mapping and results objects, each of which has a long name. For this reason, AssessORFData has alternative functions, `GetDataMapObj` and `GetResultsObj`, to accomplish a similar task. These functions allow the user to get the object of interest and then save it in their workspace under a different name. Examples on how to use the two functions are described below:
 
 ```{r}
+library(AssessORFData)
+
 ## Can replace the character string specifying the strain ID (first
 ## parameter) with any of the other 19 strain IDs listed above
 mapObj <- GetDataMapObj("MGAS5005")
@@ -46,9 +48,11 @@ resObj4 <- GetResultsObj("MGAS5005", "Glimmer")
 
 # Saving the Genome
 
-The \code{SaveGenomeToPath} function allows the user to save the genome for a strain of their choosing to a file path on their local machine in situations where the user wants to run their own analyses on their strain's genome, e.g. predict genes for the genome using a different gene finding program. An example of how to use the function is provided below:
+The `SaveGenomeToPath` function allows the user to save the genome for a strain of their choosing to a file path on their local machine in situations where the user wants to run their own analyses on their strain's genome, e.g. predict genes for the genome using a different gene finding program. An example of how to use the function is provided below:
 
 ```{r}
+library(AssessORFData)
+
 ## A path to a temporary file is used in this example.
 tmpFile <- paste0(tempfile(), ".fasta")
 
@@ -58,6 +62,8 @@ SaveGenomeToPath("MGAS5005", tmpFile)
 
 unlink(tmpFile)
 ```
+
+\newpage
 
 # Session Info
 

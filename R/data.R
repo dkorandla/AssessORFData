@@ -7,7 +7,6 @@
 #'
 #' @usage
 #' data(AssessORF_StrainIDs)
-#' allStrains <- GetStrainIDs()
 #'
 "AssessORF_StrainIDs"
 
