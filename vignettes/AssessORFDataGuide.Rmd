@@ -6,7 +6,7 @@ date: "`r doc_date()`"
 package: "`r pkg_ver('AssessORFData')`"
 output: BiocStyle::pdf_document
 vignette: >
-  %\VignetteIndexEntry{Using AssessORF}
+  %\VignetteIndexEntry{Using AssessORFData}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -23,7 +23,7 @@ AssessORFData has data for 20 strains and their IDs (within the package) are lis
 AssessORFData::GetStrainIDs()
 ```
 
-For each strain, there are 5 objects 1 mapping object and 4 results objects. The 4 results objects per strain differ in that for each one, the set of predicted came from a different program or database. The same 4 gene sources were used for all 20 strains, and their IDs (within the package) are listed below:
+For each strain, there are 5 objects: 1 mapping object and 4 results objects. The 4 results objects per strain differ in that for each one, the set of predicted genes came from a different program or database. The same 4 gene sources were used for all 20 strains, and their IDs (within the package) are listed below:
 
 ```{r}
 AssessORFData::GetGeneSources()
@@ -40,7 +40,7 @@ library(AssessORFData)
 ## parameter) with any of the other 19 strain IDs listed above
 mapObj <- GetDataMapObj("MGAS5005")
 resObj1 <- GetResultsObj("MGAS5005", "Prodigal")
-resObj2 <- GetResultsObj("MGAS5005", "Genbank")
+resObj2 <- GetResultsObj("MGAS5005", "GenBank")
 resObj3 <- GetResultsObj("MGAS5005", "GeneMarkS2")
 resObj4 <- GetResultsObj("MGAS5005", "Glimmer")
 
