@@ -14,7 +14,7 @@
 #'
 #' @name ATCC11842
 #'
-#' @aliases ATCC11842_PreSaved_DataMapObj ATCC11842_PreSaved_ResultsObj_Genbank
+#' @aliases ATCC11842_PreSaved_DataMapObj ATCC11842_PreSaved_ResultsObj_GenBank
 #' ATCC11842_PreSaved_ResultsObj_GeneMarkS2
 #' ATCC11842_PreSaved_ResultsObj_Glimmer
 #' ATCC11842_PreSaved_ResultsObj_Prodigal
@@ -32,7 +32,7 @@
 #'
 #' @usage
 #' data(ATCC11842_PreSaved_DataMapObj)
-#' data(ATCC11842_PreSaved_ResultsObj_Genbank)
+#' data(ATCC11842_PreSaved_ResultsObj_GenBank)
 #' data(ATCC11842_PreSaved_ResultsObj_GeneMarkS2)
 #' data(ATCC11842_PreSaved_ResultsObj_Glimmer)
 #' data(ATCC11842_PreSaved_ResultsObj_Prodigal)
@@ -40,8 +40,8 @@
 #' @details
 #' 'ATCC11842_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'ATCC11842_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'ATCC11842_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'ATCC11842_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -70,7 +70,7 @@
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'ATCC11842_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'ATCC11842_PreSaved_ResultsObj_GenBank',
 #' 'ATCC11842_PreSaved_ResultsObj_GeneMarkS2',
 #' 'ATCC11842_PreSaved_ResultsObj_Glimmer', and
 #' 'ATCC11842_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -79,8 +79,8 @@
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -90,7 +90,7 @@
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -102,7 +102,7 @@
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_008054.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_008054.1}
 #'
 NULL
 
@@ -110,7 +110,7 @@ NULL
 #'
 #' @name ATCC13032
 #'
-#' @aliases ATCC13032_PreSaved_DataMapObj ATCC13032_PreSaved_ResultsObj_Genbank
+#' @aliases ATCC13032_PreSaved_DataMapObj ATCC13032_PreSaved_ResultsObj_GenBank
 #' ATCC13032_PreSaved_ResultsObj_GeneMarkS2
 #' ATCC13032_PreSaved_ResultsObj_Glimmer
 #' ATCC13032_PreSaved_ResultsObj_Prodigal
@@ -128,7 +128,7 @@ NULL
 #'
 #' @usage
 #' data(ATCC13032_PreSaved_DataMapObj)
-#' data(ATCC13032_PreSaved_ResultsObj_Genbank)
+#' data(ATCC13032_PreSaved_ResultsObj_GenBank)
 #' data(ATCC13032_PreSaved_ResultsObj_GeneMarkS2)
 #' data(ATCC13032_PreSaved_ResultsObj_Glimmer)
 #' data(ATCC13032_PreSaved_ResultsObj_Prodigal)
@@ -136,8 +136,8 @@ NULL
 #' @details
 #' 'ATCC13032_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'ATCC13032_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'ATCC13032_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'ATCC13032_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -166,7 +166,7 @@ NULL
 #' function from the \pkg{AssessORF} package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'ATCC13032_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'ATCC13032_PreSaved_ResultsObj_GenBank',
 #' 'ATCC13032_PreSaved_ResultsObj_GeneMarkS2',
 #' 'ATCC13032_PreSaved_ResultsObj_Glimmer', and
 #' 'ATCC13032_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -175,8 +175,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -186,7 +186,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -198,7 +198,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/BA000036.3}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/BA000036.3}
 #'
 NULL
 
@@ -207,7 +207,7 @@ NULL
 #' @name ATCC17978
 #'
 #' @aliases ATCC17978_PreSaved_DataMapObj
-#' ATCC17978_PreSaved_ResultsObj_Genbank
+#' ATCC17978_PreSaved_ResultsObj_GenBank
 #' ATCC17978_PreSaved_ResultsObj_GeneMarkS2
 #' ATCC17978_PreSaved_ResultsObj_Glimmer
 #' ATCC17978_PreSaved_ResultsObj_Prodigal
@@ -225,7 +225,7 @@ NULL
 #'
 #' @usage
 #' data(ATCC17978_PreSaved_DataMapObj)
-#' data(ATCC17978_PreSaved_ResultsObj_Genbank)
+#' data(ATCC17978_PreSaved_ResultsObj_GenBank)
 #' data(ATCC17978_PreSaved_ResultsObj_GeneMarkS2)
 #' data(ATCC17978_PreSaved_ResultsObj_Glimmer)
 #' data(ATCC17978_PreSaved_ResultsObj_Prodigal)
@@ -233,8 +233,8 @@ NULL
 #' @details
 #' 'ATCC17978_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'ATCC17978_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'ATCC17978_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'ATCC17978_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -263,7 +263,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'ATCC17978_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'ATCC17978_PreSaved_ResultsObj_GenBank',
 #' 'ATCC17978_PreSaved_ResultsObj_GeneMarkS2',
 #' 'ATCC17978_PreSaved_ResultsObj_Glimmer', and
 #' 'ATCC17978_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -272,8 +272,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -283,7 +283,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -293,7 +293,7 @@ NULL
 #' @source
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000521.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000521.1}
 #'
 NULL
 
@@ -301,7 +301,7 @@ NULL
 #'
 #' @name ATCC700084
 #'
-#' @aliases ATCC700084_PreSaved_DataMapObj ATCC700084_PreSaved_ResultsObj_Genbank
+#' @aliases ATCC700084_PreSaved_DataMapObj ATCC700084_PreSaved_ResultsObj_GenBank
 #' ATCC700084_PreSaved_ResultsObj_GeneMarkS2
 #' ATCC700084_PreSaved_ResultsObj_Glimmer
 #' ATCC700084_PreSaved_ResultsObj_Prodigal
@@ -319,7 +319,7 @@ NULL
 #'
 #' @usage
 #' data(ATCC700084_PreSaved_DataMapObj)
-#' data(ATCC700084_PreSaved_ResultsObj_Genbank)
+#' data(ATCC700084_PreSaved_ResultsObj_GenBank)
 #' data(ATCC700084_PreSaved_ResultsObj_GeneMarkS2)
 #' data(ATCC700084_PreSaved_ResultsObj_Glimmer)
 #' data(ATCC700084_PreSaved_ResultsObj_Prodigal)
@@ -327,8 +327,8 @@ NULL
 #' @details
 #' 'ATCC700084_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'ATCC700084_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'ATCC700084_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'ATCC700084_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -357,7 +357,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'ATCC700084_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'ATCC700084_PreSaved_ResultsObj_GenBank',
 #' 'ATCC700084_PreSaved_ResultsObj_GeneMarkS2',
 #' 'ATCC700084_PreSaved_ResultsObj_Glimmer', and
 #' 'ATCC700084_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -366,8 +366,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -377,7 +377,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -391,7 +391,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_008596.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_008596.1}
 #'
 NULL
 
@@ -399,7 +399,7 @@ NULL
 #'
 #' @name CCMP1375
 #'
-#' @aliases CCMP1375_PreSaved_DataMapObj CCMP1375_PreSaved_ResultsObj_Genbank
+#' @aliases CCMP1375_PreSaved_DataMapObj CCMP1375_PreSaved_ResultsObj_GenBank
 #' CCMP1375_PreSaved_ResultsObj_GeneMarkS2
 #' CCMP1375_PreSaved_ResultsObj_Glimmer
 #' CCMP1375_PreSaved_ResultsObj_Prodigal
@@ -417,7 +417,7 @@ NULL
 #'
 #' @usage
 #' data(CCMP1375_PreSaved_DataMapObj)
-#' data(CCMP1375_PreSaved_ResultsObj_Genbank)
+#' data(CCMP1375_PreSaved_ResultsObj_GenBank)
 #' data(CCMP1375_PreSaved_ResultsObj_GeneMarkS2)
 #' data(CCMP1375_PreSaved_ResultsObj_Glimmer)
 #' data(CCMP1375_PreSaved_ResultsObj_Prodigal)
@@ -425,8 +425,8 @@ NULL
 #' @details
 #' 'CCMP1375_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'CCMP1375_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'CCMP1375_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'CCMP1375_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -455,7 +455,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'CCMP1375_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'CCMP1375_PreSaved_ResultsObj_GenBank',
 #' 'CCMP1375_PreSaved_ResultsObj_GeneMarkS2',
 #' 'CCMP1375_PreSaved_ResultsObj_Glimmer', and
 #' 'CCMP1375_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -464,8 +464,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -475,7 +475,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -487,7 +487,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_005042.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_005042.1}
 #'
 NULL
 
@@ -495,7 +495,7 @@ NULL
 #'
 #' @name CECT5344
 #'
-#' @aliases CECT5344_PreSaved_DataMapObj CECT5344_PreSaved_ResultsObj_Genbank
+#' @aliases CECT5344_PreSaved_DataMapObj CECT5344_PreSaved_ResultsObj_GenBank
 #' CECT5344_PreSaved_ResultsObj_GeneMarkS2
 #' CECT5344_PreSaved_ResultsObj_Glimmer
 #' CECT5344_PreSaved_ResultsObj_Prodigal
@@ -513,7 +513,7 @@ NULL
 #'
 #' @usage
 #' data(CECT5344_PreSaved_DataMapObj)
-#' data(CECT5344_PreSaved_ResultsObj_Genbank)
+#' data(CECT5344_PreSaved_ResultsObj_GenBank)
 #' data(CECT5344_PreSaved_ResultsObj_GeneMarkS2)
 #' data(CECT5344_PreSaved_ResultsObj_Glimmer)
 #' data(CECT5344_PreSaved_ResultsObj_Prodigal)
@@ -521,8 +521,8 @@ NULL
 #' @details
 #' 'CECT5344_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'CECT5344_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'CECT5344_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'CECT5344_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -551,7 +551,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'CECT5344_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'CECT5344_PreSaved_ResultsObj_GenBank',
 #' 'CECT5344_PreSaved_ResultsObj_GeneMarkS2',
 #' 'CECT5344_PreSaved_ResultsObj_Glimmer', and
 #' 'CECT5344_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -560,8 +560,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -571,7 +571,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -583,7 +583,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/HG916826.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/HG916826.1}
 #'
 NULL
 
@@ -591,7 +591,7 @@ NULL
 #'
 #' @name CNRZ327
 #'
-#' @aliases CNRZ327_PreSaved_DataMapObj CNRZ327_PreSaved_ResultsObj_Genbank
+#' @aliases CNRZ327_PreSaved_DataMapObj CNRZ327_PreSaved_ResultsObj_GenBank
 #' CNRZ327_PreSaved_ResultsObj_GeneMarkS2
 #' CNRZ327_PreSaved_ResultsObj_Glimmer
 #' CNRZ327_PreSaved_ResultsObj_Prodigal
@@ -609,7 +609,7 @@ NULL
 #'
 #' @usage
 #' data(CNRZ327_PreSaved_DataMapObj)
-#' data(CNRZ327_PreSaved_ResultsObj_Genbank)
+#' data(CNRZ327_PreSaved_ResultsObj_GenBank)
 #' data(CNRZ327_PreSaved_ResultsObj_GeneMarkS2)
 #' data(CNRZ327_PreSaved_ResultsObj_Glimmer)
 #' data(CNRZ327_PreSaved_ResultsObj_Prodigal)
@@ -617,8 +617,8 @@ NULL
 #' @details
 #' 'CNRZ327_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'CNRZ327_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'CNRZ327_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'CNRZ327_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -647,7 +647,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'CNRZ327_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'CNRZ327_PreSaved_ResultsObj_GenBank',
 #' 'CNRZ327_PreSaved_ResultsObj_GeneMarkS2',
 #' 'CNRZ327_PreSaved_ResultsObj_Glimmer', and
 #' 'CNRZ327_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -656,8 +656,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -667,7 +667,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -679,7 +679,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CCDV01000001.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CCDV01000001.1}
 #'
 NULL
 
@@ -687,7 +687,7 @@ NULL
 #'
 #' @name COH1
 #'
-#' @aliases COH1_PreSaved_DataMapObj COH1_PreSaved_ResultsObj_Genbank
+#' @aliases COH1_PreSaved_DataMapObj COH1_PreSaved_ResultsObj_GenBank
 #' COH1_PreSaved_ResultsObj_GeneMarkS2 COH1_PreSaved_ResultsObj_Glimmer
 #' COH1_PreSaved_ResultsObj_Prodigal
 #'
@@ -704,7 +704,7 @@ NULL
 #'
 #' @usage
 #' data(COH1_PreSaved_DataMapObj)
-#' data(COH1_PreSaved_ResultsObj_Genbank)
+#' data(COH1_PreSaved_ResultsObj_GenBank)
 #' data(COH1_PreSaved_ResultsObj_GeneMarkS2)
 #' data(COH1_PreSaved_ResultsObj_Glimmer)
 #' data(COH1_PreSaved_ResultsObj_Prodigal)
@@ -712,8 +712,8 @@ NULL
 #' @details
 #' 'COH1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'COH1_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'COH1_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'COH1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -743,7 +743,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'COH1_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'COH1_PreSaved_ResultsObj_GenBank',
 #' 'COH1_PreSaved_ResultsObj_GeneMarkS2',
 #' 'COH1_PreSaved_ResultsObj_Glimmer', and
 #' 'COH1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -752,8 +752,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -763,7 +763,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -773,7 +773,7 @@ NULL
 #' @source
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/HG939456.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/HG939456.1}
 #'
 NULL
 
@@ -781,7 +781,7 @@ NULL
 #'
 #' @name D_UW_3_CX
 #'
-#' @aliases D_UW_3_CX_PreSaved_DataMapObj D_UW_3_CX_PreSaved_ResultsObj_Genbank
+#' @aliases D_UW_3_CX_PreSaved_DataMapObj D_UW_3_CX_PreSaved_ResultsObj_GenBank
 #' D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2
 #' D_UW_3_CX_PreSaved_ResultsObj_Glimmer D_UW_3_CX_PreSaved_ResultsObj_Prodigal
 #'
@@ -798,7 +798,7 @@ NULL
 #'
 #' @usage
 #' data(D_UW_3_CX_PreSaved_DataMapObj)
-#' data(D_UW_3_CX_PreSaved_ResultsObj_Genbank)
+#' data(D_UW_3_CX_PreSaved_ResultsObj_GenBank)
 #' data(D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2)
 #' data(D_UW_3_CX_PreSaved_ResultsObj_Glimmer)
 #' data(D_UW_3_CX_PreSaved_ResultsObj_Prodigal)
@@ -806,8 +806,8 @@ NULL
 #' @details
 #' 'D_UW_3_CX_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'D_UW_3_CX_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'D_UW_3_CX_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -821,7 +821,7 @@ NULL
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: D-UW-3-CX
+#' \item \code{StrainID}: D_UW_3_CX
 #' \item \code{Species}: C. trachomatis
 #' }
 #'
@@ -836,7 +836,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'D_UW_3_CX_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'D_UW_3_CX_PreSaved_ResultsObj_GenBank',
 #' 'D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2',
 #' 'D_UW_3_CX_PreSaved_ResultsObj_Glimmer', and
 #' 'D_UW_3_CX_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -845,8 +845,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -856,7 +856,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -868,60 +868,60 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE001273.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE001273.1}
 #'
 NULL
 
 #' @docType data
 #'
-#' @name EGDe
+#' @name EGD_e
 #'
-#' @aliases EGDe_PreSaved_DataMapObj EGDe_PreSaved_ResultsObj_Genbank
-#' EGDe_PreSaved_ResultsObj_GeneMarkS2 EGDe_PreSaved_ResultsObj_Glimmer
-#' EGDe_PreSaved_ResultsObj_Prodigal
+#' @aliases EGD_e_PreSaved_DataMapObj EGD_e_PreSaved_ResultsObj_GenBank
+#' EGD_e_PreSaved_ResultsObj_GeneMarkS2 EGD_e_PreSaved_ResultsObj_Glimmer
+#' EGD_e_PreSaved_ResultsObj_Prodigal
 #'
 #' @title \code{Assessment} Objects for
-#' \emph{Listeria monocytogenes} strain EGDe
+#' \emph{Listeria monocytogenes} strain EGD-e
 #'
 #' @description Objects of class \code{Assessment} and either
 #' subclass \code{DataMap} or subclass \code{Results} for
-#' \emph{Listeria monocytogenes} strain EGDe
+#' \emph{Listeria monocytogenes} strain EGD-e
 #'
 #' @format All 5 objects have a list structure. For specifics on what the two
 #' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
 #' package.
 #'
 #' @usage
-#' data(EGDe_PreSaved_DataMapObj)
-#' data(EGDe_PreSaved_ResultsObj_Genbank)
-#' data(EGDe_PreSaved_ResultsObj_GeneMarkS2)
-#' data(EGDe_PreSaved_ResultsObj_Glimmer)
-#' data(EGDe_PreSaved_ResultsObj_Prodigal)
+#' data(EGD_e_PreSaved_DataMapObj)
+#' data(EGD_e_PreSaved_ResultsObj_GenBank)
+#' data(EGD_e_PreSaved_ResultsObj_GeneMarkS2)
+#' data(EGD_e_PreSaved_ResultsObj_Glimmer)
+#' data(EGD_e_PreSaved_ResultsObj_Prodigal)
 #'
 #' @details
-#' 'EGDe_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#' 'EGD_e_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'EGDe_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'EGD_e_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
-#' 'EGDe_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' 'EGD_e_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
 #'
-#' 'EGDe_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' 'EGD_e_PreSaved_ResultsObj_Glimmer' is an object of subclass
 #' \code{Results} with predicted genes from the program Glimmer.
 #'
-#' 'EGDe_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' 'EGD_e_PreSaved_ResultsObj_Prodigal' is an object of subclass
 #' \code{Results} with predicted genes from the program Prodigal.
 #'
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: EGD-e
+#' \item \code{StrainID}: EGD_e
 #' \item \code{Species}: L. monocytogenes
 #' }
 #'
 #' @section Mapping object:
-#' The mapping object, 'EGDe_PreSaved_DataMapObj', stores the mapping of
+#' The mapping object, 'EGD_e_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
 #' genome. The raw proteomics mass spectra data came from  ProteomeXchange
 #' dataset PXD000890. The related genomes used to determine evolutionary
@@ -931,17 +931,17 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'EGDe_PreSaved_ResultsObj_Genbank',
-#' 'EGDe_PreSaved_ResultsObj_GeneMarkS2',
-#' 'EGDe_PreSaved_ResultsObj_Glimmer', and
-#' 'EGDe_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' The 4 results objects, 'EGD_e_PreSaved_ResultsObj_GenBank',
+#' 'EGD_e_PreSaved_ResultsObj_GeneMarkS2',
+#' 'EGD_e_PreSaved_ResultsObj_Glimmer', and
+#' 'EGD_e_PreSaved_ResultsObj_Prodigal', store how much evidence there is
 #' supporting or against each gene in a set of predicted genes for the strain's
 #' genome. The four objects were built using the \code{AssessGenes} function
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -951,11 +951,11 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
-#' Use \code{SaveGenomeToPath("EGDe", <INSERT FILE PATH HERE>)} to save
+#' Use \code{SaveGenomeToPath("EGD_e", <INSERT FILE PATH HERE>)} to save
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
@@ -963,7 +963,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_003210.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_003210.1}
 #'
 NULL
 
@@ -971,7 +971,7 @@ NULL
 #'
 #' @name H37Rv
 #'
-#' @aliases H37Rv_PreSaved_DataMapObj H37Rv_PreSaved_ResultsObj_Genbank
+#' @aliases H37Rv_PreSaved_DataMapObj H37Rv_PreSaved_ResultsObj_GenBank
 #' H37Rv_PreSaved_ResultsObj_GeneMarkS2 H37Rv_PreSaved_ResultsObj_Glimmer
 #' H37Rv_PreSaved_ResultsObj_Prodigal
 #'
@@ -988,7 +988,7 @@ NULL
 #'
 #' @usage
 #' data(H37Rv_PreSaved_DataMapObj)
-#' data(H37Rv_PreSaved_ResultsObj_Genbank)
+#' data(H37Rv_PreSaved_ResultsObj_GenBank)
 #' data(H37Rv_PreSaved_ResultsObj_GeneMarkS2)
 #' data(H37Rv_PreSaved_ResultsObj_Glimmer)
 #' data(H37Rv_PreSaved_ResultsObj_Prodigal)
@@ -996,8 +996,8 @@ NULL
 #' @details
 #' 'H37Rv_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'H37Rv_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'H37Rv_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'H37Rv_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1026,7 +1026,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'H37Rv_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'H37Rv_PreSaved_ResultsObj_GenBank',
 #' 'H37Rv_PreSaved_ResultsObj_GeneMarkS2',
 #' 'H37Rv_PreSaved_ResultsObj_Glimmer', and
 #' 'H37Rv_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1035,8 +1035,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1046,7 +1046,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1058,61 +1058,61 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AL123456.3}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AL123456.3}
 #'
 NULL
 
 #' @docType data
 #'
-#' @name Houston1
+#' @name Houston_1
 #'
-#' @aliases Houston1_PreSaved_DataMapObj Houston1_PreSaved_ResultsObj_Genbank
-#' Houston1_PreSaved_ResultsObj_GeneMarkS2
-#' Houston1_PreSaved_ResultsObj_Glimmer
-#' Houston1_PreSaved_ResultsObj_Prodigal
+#' @aliases Houston_1_PreSaved_DataMapObj Houston_1_PreSaved_ResultsObj_GenBank
+#' Houston_1_PreSaved_ResultsObj_GeneMarkS2
+#' Houston_1_PreSaved_ResultsObj_Glimmer
+#' Houston_1_PreSaved_ResultsObj_Prodigal
 #'
 #' @title \code{Assessment} Objects for
-#' \emph{Bartonella henselae} strain Houston1
+#' \emph{Bartonella henselae} strain Houston-1
 #'
 #' @description Objects of class \code{Assessment} and either
 #' subclass \code{DataMap} or subclass \code{Results} for
-#' \emph{Bartonella henselae} strain Houston1
+#' \emph{Bartonella henselae} strain Houston-1
 #'
 #' @format All 5 objects have a list structure. For specifics on what the two
 #' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
 #' package.
 #'
 #' @usage
-#' data(Houston1_PreSaved_DataMapObj)
-#' data(Houston1_PreSaved_ResultsObj_Genbank)
-#' data(Houston1_PreSaved_ResultsObj_GeneMarkS2)
-#' data(Houston1_PreSaved_ResultsObj_Glimmer)
-#' data(Houston1_PreSaved_ResultsObj_Prodigal)
+#' data(Houston_1_PreSaved_DataMapObj)
+#' data(Houston_1_PreSaved_ResultsObj_GenBank)
+#' data(Houston_1_PreSaved_ResultsObj_GeneMarkS2)
+#' data(Houston_1_PreSaved_ResultsObj_Glimmer)
+#' data(Houston_1_PreSaved_ResultsObj_Prodigal)
 #'
 #' @details
-#' 'Houston1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#' 'Houston_1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'Houston1_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'Houston_1_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
-#' 'Houston1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' 'Houston_1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
 #'
-#' 'Houston1_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' 'Houston_1_PreSaved_ResultsObj_Glimmer' is an object of subclass
 #' \code{Results} with predicted genes from the program Glimmer.
 #'
-#' 'Houston1_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' 'Houston_1_PreSaved_ResultsObj_Prodigal' is an object of subclass
 #' \code{Results} with predicted genes from the program Prodigal.
 #'
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: Houston-1
+#' \item \code{StrainID}: Houston_1
 #' \item \code{Species}: B. henselae
 #' }
 #'
 #' @section Mapping object:
-#' The mapping object, 'Houston1_PreSaved_DataMapObj', stores the mapping of
+#' The mapping object, 'Houston_1_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
 #' genome. The raw proteomics mass spectra data came from  ProteomeXchange
 #' dataset PXD000153. The related genomes used to determine evolutionary
@@ -1122,17 +1122,17 @@ NULL
 #' \code{MapAssessmentData} function from the \pkg{AssessORF} package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'Houston1_PreSaved_ResultsObj_Genbank',
-#' 'Houston1_PreSaved_ResultsObj_GeneMarkS2',
-#' 'Houston1_PreSaved_ResultsObj_Glimmer', and
-#' 'Houston1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' The 4 results objects, 'Houston_1_PreSaved_ResultsObj_GenBank',
+#' 'Houston_1_PreSaved_ResultsObj_GeneMarkS2',
+#' 'Houston_1_PreSaved_ResultsObj_Glimmer', and
+#' 'Houston_1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
 #' supporting or against each gene in a set of predicted genes for the strain's
 #' genome. The four objects were built using the \code{AssessGenes} function
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1142,11 +1142,11 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
-#' Use \code{SaveGenomeToPath("Houston1", <INSERT FILE PATH HERE>)} to save
+#' Use \code{SaveGenomeToPath("Houston_1", <INSERT FILE PATH HERE>)} to save
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
@@ -1154,7 +1154,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/BX897699.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/BX897699.1}
 #'
 NULL
 
@@ -1162,7 +1162,7 @@ NULL
 #'
 #' @name Il1403
 #'
-#' @aliases Il1403_PreSaved_DataMapObj Il1403_PreSaved_ResultsObj_Genbank
+#' @aliases Il1403_PreSaved_DataMapObj Il1403_PreSaved_ResultsObj_GenBank
 #' Il1403_PreSaved_ResultsObj_GeneMarkS2
 #' Il1403_PreSaved_ResultsObj_Glimmer Il1403_PreSaved_ResultsObj_Prodigal
 #'
@@ -1179,7 +1179,7 @@ NULL
 #'
 #' @usage
 #' data(Il1403_PreSaved_DataMapObj)
-#' data(Il1403_PreSaved_ResultsObj_Genbank)
+#' data(Il1403_PreSaved_ResultsObj_GenBank)
 #' data(Il1403_PreSaved_ResultsObj_GeneMarkS2)
 #' data(Il1403_PreSaved_ResultsObj_Glimmer)
 #' data(Il1403_PreSaved_ResultsObj_Prodigal)
@@ -1187,8 +1187,8 @@ NULL
 #' @details
 #' 'Il1403_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'Il1403_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'Il1403_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'Il1403_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1218,7 +1218,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'Il1403_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'Il1403_PreSaved_ResultsObj_GenBank',
 #' 'Il1403_PreSaved_ResultsObj_GeneMarkS2',
 #' 'Il1403_PreSaved_ResultsObj_Glimmer', and
 #' 'Il1403_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1227,8 +1227,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1238,7 +1238,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1250,19 +1250,19 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE005176.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE005176.1}
 #'
 NULL
 
 #' @docType data
 #'
-#' @name K12_MG1655
+#' @name K_12_MG1655
 #'
-#' @aliases K12_MG1655_PreSaved_DataMapObj
-#' K12_MG1655_PreSaved_ResultsObj_Genbank
-#' K12_MG1655_PreSaved_ResultsObj_GeneMarkS2
-#' K12_MG1655_PreSaved_ResultsObj_Glimmer
-#' K12_MG1655_PreSaved_ResultsObj_Prodigal
+#' @aliases K_12_MG1655_PreSaved_DataMapObj
+#' K_12_MG1655_PreSaved_ResultsObj_GenBank
+#' K_12_MG1655_PreSaved_ResultsObj_GeneMarkS2
+#' K_12_MG1655_PreSaved_ResultsObj_Glimmer
+#' K_12_MG1655_PreSaved_ResultsObj_Prodigal
 #'
 #' @title \code{Assessment} Objects for
 #' \emph{Escherichia coli} strain K-12 substrain MG1655
@@ -1276,36 +1276,36 @@ NULL
 #' package.
 #'
 #' @usage
-#' data(K12_MG1655_PreSaved_DataMapObj)
-#' data(K12_MG1655_PreSaved_ResultsObj_Genbank)
-#' data(K12_MG1655_PreSaved_ResultsObj_GeneMarkS2)
-#' data(K12_MG1655_PreSaved_ResultsObj_Glimmer)
-#' data(K12_MG1655_PreSaved_ResultsObj_Prodigal)
+#' data(K_12_MG1655_PreSaved_DataMapObj)
+#' data(K_12_MG1655_PreSaved_ResultsObj_GenBank)
+#' data(K_12_MG1655_PreSaved_ResultsObj_GeneMarkS2)
+#' data(K_12_MG1655_PreSaved_ResultsObj_Glimmer)
+#' data(K_12_MG1655_PreSaved_ResultsObj_Prodigal)
 #'
 #' @details
-#' 'K12_MG1655_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#' 'K_12_MG1655_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'K12_MG1655_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'K_12_MG1655_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
-#' 'K12_MG1655_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' 'K_12_MG1655_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
 #'
-#' 'K12_MG1655_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' 'K_12_MG1655_PreSaved_ResultsObj_Glimmer' is an object of subclass
 #' \code{Results} with predicted genes from the program Glimmer.
 #'
-#' 'K12_MG1655_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' 'K_12_MG1655_PreSaved_ResultsObj_Prodigal' is an object of subclass
 #' \code{Results} with predicted genes from the program Prodigal.
 #'
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: K-12_MG1655
+#' \item \code{StrainID}: K_12_MG1655
 #' \item \code{Species}: E. coli
 #' }
 #'
 #' @section Mapping object:
-#' The mapping object, 'K12_MG1655_PreSaved_DataMapObj', stores the mapping of
+#' The mapping object, 'K_12_MG1655_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
 #' genome. The raw proteomics mass spectra data came from  ProteomeXchange
 #' dataset PXD005901. The related genomes used to determine evolutionary
@@ -1315,17 +1315,17 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'K12_MG1655_PreSaved_ResultsObj_Genbank',
-#' 'K12_MG1655_PreSaved_ResultsObj_GeneMarkS2',
-#' 'K12_MG1655_PreSaved_ResultsObj_Glimmer', and
-#' 'K12_MG1655_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' The 4 results objects, 'K_12_MG1655_PreSaved_ResultsObj_GenBank',
+#' 'K_12_MG1655_PreSaved_ResultsObj_GeneMarkS2',
+#' 'K_12_MG1655_PreSaved_ResultsObj_Glimmer', and
+#' 'K_12_MG1655_PreSaved_ResultsObj_Prodigal', store how much evidence there is
 #' supporting or against each gene in a set of predicted genes for the strain's
 #' genome. The four objects were built using the \code{AssessGenes} function
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1335,11 +1335,11 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
-#' Use \code{SaveGenomeToPath("K12_MG1655", <INSERT FILE PATH HERE>)} to save
+#' Use \code{SaveGenomeToPath("K_12_MG1655", <INSERT FILE PATH HERE>)} to save
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
@@ -1347,7 +1347,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP025268.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP025268.1}
 #'
 NULL
 
@@ -1355,7 +1355,7 @@ NULL
 #'
 #' @name LAL14_1
 #'
-#' @aliases LAL14_1_PreSaved_DataMapObj LAL14_1_PreSaved_ResultsObj_Genbank
+#' @aliases LAL14_1_PreSaved_DataMapObj LAL14_1_PreSaved_ResultsObj_GenBank
 #' LAL14_1_PreSaved_ResultsObj_GeneMarkS2 LAL14_1_PreSaved_ResultsObj_Glimmer
 #' LAL14_1_PreSaved_ResultsObj_Prodigal
 #'
@@ -1372,7 +1372,7 @@ NULL
 #'
 #' @usage
 #' data(LAL14_1_PreSaved_DataMapObj)
-#' data(LAL14_1_PreSaved_ResultsObj_Genbank)
+#' data(LAL14_1_PreSaved_ResultsObj_GenBank)
 #' data(LAL14_1_PreSaved_ResultsObj_GeneMarkS2)
 #' data(LAL14_1_PreSaved_ResultsObj_Glimmer)
 #' data(LAL14_1_PreSaved_ResultsObj_Prodigal)
@@ -1380,8 +1380,8 @@ NULL
 #' @details
 #' 'LAL14_1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'LAL14_1_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'LAL14_1_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'LAL14_1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1395,7 +1395,7 @@ NULL
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: LAL14-1
+#' \item \code{StrainID}: LAL14_1
 #' \item \code{Species}: S. islandicus
 #' }
 #'
@@ -1410,7 +1410,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'LAL14_1_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'LAL14_1_PreSaved_ResultsObj_GenBank',
 #' 'LAL14_1_PreSaved_ResultsObj_GeneMarkS2',
 #' 'LAL14_1_PreSaved_ResultsObj_Glimmer', and
 #' 'LAL14_1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1419,8 +1419,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1430,7 +1430,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1442,7 +1442,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP003928.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP003928.1}
 #'
 NULL
 
@@ -1450,7 +1450,7 @@ NULL
 #'
 #' @name MGAS5005
 #'
-#' @aliases MGAS5005_PreSaved_DataMapObj MGAS5005_PreSaved_ResultsObj_Genbank
+#' @aliases MGAS5005_PreSaved_DataMapObj MGAS5005_PreSaved_ResultsObj_GenBank
 #' MGAS5005_PreSaved_ResultsObj_GeneMarkS2
 #' MGAS5005_PreSaved_ResultsObj_Glimmer MGAS5005_PreSaved_ResultsObj_Prodigal
 #'
@@ -1467,7 +1467,7 @@ NULL
 #'
 #' @usage
 #' data(MGAS5005_PreSaved_DataMapObj)
-#' data(MGAS5005_PreSaved_ResultsObj_Genbank)
+#' data(MGAS5005_PreSaved_ResultsObj_GenBank)
 #' data(MGAS5005_PreSaved_ResultsObj_GeneMarkS2)
 #' data(MGAS5005_PreSaved_ResultsObj_Glimmer)
 #' data(MGAS5005_PreSaved_ResultsObj_Prodigal)
@@ -1475,8 +1475,8 @@ NULL
 #' @details
 #' 'MGAS5005_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'MGAS5005_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'MGAS5005_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'MGAS5005_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1506,7 +1506,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'MGAS5005_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'MGAS5005_PreSaved_ResultsObj_GenBank',
 #' 'MGAS5005_PreSaved_ResultsObj_GeneMarkS2',
 #' 'MGAS5005_PreSaved_ResultsObj_Glimmer', and
 #' 'MGAS5005_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1515,8 +1515,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1526,7 +1526,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1536,7 +1536,7 @@ NULL
 #' @source
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000017.2}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000017.2}
 #'
 NULL
 
@@ -1544,7 +1544,7 @@ NULL
 #'
 #' @name PAO1
 #'
-#' @aliases PAO1_PreSaved_DataMapObj PAO1_PreSaved_ResultsObj_Genbank
+#' @aliases PAO1_PreSaved_DataMapObj PAO1_PreSaved_ResultsObj_GenBank
 #' PAO1_PreSaved_ResultsObj_GeneMarkS2 PAO1_PreSaved_ResultsObj_Glimmer
 #' PAO1_PreSaved_ResultsObj_Prodigal
 #'
@@ -1561,7 +1561,7 @@ NULL
 #'
 #' @usage
 #' data(PAO1_PreSaved_DataMapObj)
-#' data(PAO1_PreSaved_ResultsObj_Genbank)
+#' data(PAO1_PreSaved_ResultsObj_GenBank)
 #' data(PAO1_PreSaved_ResultsObj_GeneMarkS2)
 #' data(PAO1_PreSaved_ResultsObj_Glimmer)
 #' data(PAO1_PreSaved_ResultsObj_Prodigal)
@@ -1569,8 +1569,8 @@ NULL
 #' @details
 #' 'PAO1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'PAO1_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'PAO1_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'PAO1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1599,7 +1599,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'PAO1_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'PAO1_PreSaved_ResultsObj_GenBank',
 #' 'PAO1_PreSaved_ResultsObj_GeneMarkS2',
 #' 'PAO1_PreSaved_ResultsObj_Glimmer', and
 #' 'PAO1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1608,8 +1608,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1619,7 +1619,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1631,7 +1631,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE004091.2}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE004091.2}
 #'
 NULL
 
@@ -1639,7 +1639,7 @@ NULL
 #'
 #' @name SL1344
 #'
-#' @aliases SL1344_PreSaved_DataMapObj SL1344_PreSaved_ResultsObj_Genbank
+#' @aliases SL1344_PreSaved_DataMapObj SL1344_PreSaved_ResultsObj_GenBank
 #' SL1344_PreSaved_ResultsObj_GeneMarkS2
 #' SL1344_PreSaved_ResultsObj_Glimmer
 #' SL1344_PreSaved_ResultsObj_Prodigal
@@ -1659,7 +1659,7 @@ NULL
 #'
 #' @usage
 #' data(SL1344_PreSaved_DataMapObj)
-#' data(SL1344_PreSaved_ResultsObj_Genbank)
+#' data(SL1344_PreSaved_ResultsObj_GenBank)
 #' data(SL1344_PreSaved_ResultsObj_GeneMarkS2)
 #' data(SL1344_PreSaved_ResultsObj_Glimmer)
 #' data(SL1344_PreSaved_ResultsObj_Prodigal)
@@ -1667,8 +1667,8 @@ NULL
 #' @details
 #' 'SL1344_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'SL1344_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'SL1344_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'SL1344_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1697,7 +1697,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'SL1344_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'SL1344_PreSaved_ResultsObj_GenBank',
 #' 'SL1344_PreSaved_ResultsObj_GeneMarkS2',
 #' 'SL1344_PreSaved_ResultsObj_Glimmer', and
 #' 'SL1344_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1706,8 +1706,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1717,7 +1717,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1729,7 +1729,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/FQ312003.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/FQ312003.1}
 #'
 NULL
 
@@ -1738,7 +1738,7 @@ NULL
 #' @name Strain168
 #'
 #' @aliases Strain168_PreSaved_DataMapObj
-#' Strain168_PreSaved_ResultsObj_Genbank
+#' Strain168_PreSaved_ResultsObj_GenBank
 #' Strain168_PreSaved_ResultsObj_GeneMarkS2
 #' Strain168_PreSaved_ResultsObj_Glimmer
 #' Strain168_PreSaved_ResultsObj_Prodigal
@@ -1756,7 +1756,7 @@ NULL
 #'
 #' @usage
 #' data(Strain168_PreSaved_DataMapObj)
-#' data(Strain168_PreSaved_ResultsObj_Genbank)
+#' data(Strain168_PreSaved_ResultsObj_GenBank)
 #' data(Strain168_PreSaved_ResultsObj_GeneMarkS2)
 #' data(Strain168_PreSaved_ResultsObj_Glimmer)
 #' data(Strain168_PreSaved_ResultsObj_Prodigal)
@@ -1764,8 +1764,8 @@ NULL
 #' @details
 #' 'Strain168_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'Strain168_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'Strain168_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'Strain168_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1779,7 +1779,7 @@ NULL
 #' For all 5 objects, values of two key identifying list items within
 #' each object are listed below.
 #' \itemize{
-#' \item \code{StrainID}: 168
+#' \item \code{StrainID}: Strain168
 #' \item \code{Species}: B. subtilis
 #' }
 #'
@@ -1794,7 +1794,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'Strain168_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'Strain168_PreSaved_ResultsObj_GenBank',
 #' 'Strain168_PreSaved_ResultsObj_GeneMarkS2',
 #' 'Strain168_PreSaved_ResultsObj_Glimmer', and
 #' 'Strain168_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1803,8 +1803,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1814,7 +1814,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1826,7 +1826,7 @@ NULL
 #'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CM000487.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CM000487.1}
 #'
 NULL
 
@@ -1834,7 +1834,7 @@ NULL
 #'
 #' @name TCH1516
 #'
-#' @aliases TCH1516_PreSaved_DataMapObj TCH1516_PreSaved_ResultsObj_Genbank
+#' @aliases TCH1516_PreSaved_DataMapObj TCH1516_PreSaved_ResultsObj_GenBank
 #' TCH1516_PreSaved_ResultsObj_GeneMarkS2
 #' TCH1516_PreSaved_ResultsObj_Glimmer TCH1516_PreSaved_ResultsObj_Prodigal
 #'
@@ -1851,7 +1851,7 @@ NULL
 #'
 #' @usage
 #' data(TCH1516_PreSaved_DataMapObj)
-#' data(TCH1516_PreSaved_ResultsObj_Genbank)
+#' data(TCH1516_PreSaved_ResultsObj_GenBank)
 #' data(TCH1516_PreSaved_ResultsObj_GeneMarkS2)
 #' data(TCH1516_PreSaved_ResultsObj_Glimmer)
 #' data(TCH1516_PreSaved_ResultsObj_Prodigal)
@@ -1859,8 +1859,8 @@ NULL
 #' @details
 #' 'TCH1516_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
-#' 'TCH1516_PreSaved_ResultsObj_Genbank' is an object of subclass
-#' \code{Results} with predicted genes from the Genbank databse.
+#' 'TCH1516_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank databse.
 #'
 #' 'TCH1516_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1889,7 +1889,7 @@ NULL
 #' package.
 #'
 #' @section Results objects:
-#' The 4 results objects, 'TCH1516_PreSaved_ResultsObj_Genbank',
+#' The 4 results objects, 'TCH1516_PreSaved_ResultsObj_GenBank',
 #' 'TCH1516_PreSaved_ResultsObj_GeneMarkS2',
 #' 'TCH1516_PreSaved_ResultsObj_Glimmer', and
 #' 'TCH1516_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -1898,8 +1898,8 @@ NULL
 #' from the \pkg{AssessORF} package, a set of genes, and the mapping object
 #' described here.
 #'
-#' For the Genbank object, the genes were downloaded from the
-#' corresponding record in the Genbank database. For the other three objects,
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
 #' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 #' settings in order to generate the set of predicted genes for the
 #' corresponding results object.
@@ -1909,7 +1909,7 @@ NULL
 #' the set of predicted genes used to generate that object.
 #'
 #' The \code{GeneSource} list item within each of the four results objects
-#' describes where the predicted genes came from (either "Genbank",
+#' describes where the predicted genes came from (either "GenBank",
 #' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 #'
 #' @section Getting the strain's genome:
@@ -1919,6 +1919,6 @@ NULL
 #' @source
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
-#' Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000730.1}
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000730.1}
 #'
 NULL

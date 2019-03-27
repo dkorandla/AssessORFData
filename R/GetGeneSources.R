@@ -13,7 +13,7 @@
 #' geneSourceSet <- GetGeneSources()
 #'
 GetGeneSources <- function() {
-  geneSources <- c("Prodigal", "GeneMarkS2", "Genbank", "Glimmer")
+  geneSources <- c("Prodigal", "GeneMarkS2", "GenBank", "Glimmer")
 
   return(geneSources)
 }
