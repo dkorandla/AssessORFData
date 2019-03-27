@@ -27,7 +27,7 @@ the function ignores case when checking if the given gene source is a part of th
 \examples{
 
 resObj1 <- GetResultsObj("MGAS5005", "Prodigal")
-resObj2 <- GetResultsObj("MGAS5005", "Genbank")
+resObj2 <- GetResultsObj("MGAS5005", "GenBank")
 resObj3 <- GetResultsObj("MGAS5005", "GeneMarkS2")
 resObj4 <- GetResultsObj("MGAS5005", "Glimmer")
 

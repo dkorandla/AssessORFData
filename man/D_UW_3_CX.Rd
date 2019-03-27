@@ -4,7 +4,7 @@
 \name{D_UW_3_CX}
 \alias{D_UW_3_CX}
 \alias{D_UW_3_CX_PreSaved_DataMapObj}
-\alias{D_UW_3_CX_PreSaved_ResultsObj_Genbank}
+\alias{D_UW_3_CX_PreSaved_ResultsObj_GenBank}
 \alias{D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2}
 \alias{D_UW_3_CX_PreSaved_ResultsObj_Glimmer}
 \alias{D_UW_3_CX_PreSaved_ResultsObj_Prodigal}
@@ -18,11 +18,11 @@ Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?
 
 NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 
-Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE001273.1}
+GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AE001273.1}
 }
 \usage{
 data(D_UW_3_CX_PreSaved_DataMapObj)
-data(D_UW_3_CX_PreSaved_ResultsObj_Genbank)
+data(D_UW_3_CX_PreSaved_ResultsObj_GenBank)
 data(D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2)
 data(D_UW_3_CX_PreSaved_ResultsObj_Glimmer)
 data(D_UW_3_CX_PreSaved_ResultsObj_Prodigal)
@@ -35,8 +35,8 @@ subclass \code{DataMap} or subclass \code{Results} for
 \details{
 'D_UW_3_CX_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 
-'D_UW_3_CX_PreSaved_ResultsObj_Genbank' is an object of subclass
-\code{Results} with predicted genes from the Genbank databse.
+'D_UW_3_CX_PreSaved_ResultsObj_GenBank' is an object of subclass
+\code{Results} with predicted genes from the GenBank databse.
 
 'D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -50,7 +50,7 @@ subclass \code{DataMap} or subclass \code{Results} for
 For all 5 objects, values of two key identifying list items within
 each object are listed below.
 \itemize{
-\item \code{StrainID}: D-UW-3-CX
+\item \code{StrainID}: D_UW_3_CX
 \item \code{Species}: C. trachomatis
 }
 }
@@ -68,7 +68,7 @@ package.
 
 \section{Results objects}{
 
-The 4 results objects, 'D_UW_3_CX_PreSaved_ResultsObj_Genbank',
+The 4 results objects, 'D_UW_3_CX_PreSaved_ResultsObj_GenBank',
 'D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2',
 'D_UW_3_CX_PreSaved_ResultsObj_Glimmer', and
 'D_UW_3_CX_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -77,8 +77,8 @@ genome. The four objects were built using the \code{AssessGenes} function
 from the \pkg{AssessORF} package, a set of genes, and the mapping object
 described here.
 
-For the Genbank object, the genes were downloaded from the
-corresponding record in the Genbank database. For the other three objects,
+For the GenBank object, the genes were downloaded from the
+corresponding record in the GenBank database. For the other three objects,
 GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 settings in order to generate the set of predicted genes for the
 corresponding results object.
@@ -88,7 +88,7 @@ within each of the four results objects provide positional information on
 the set of predicted genes used to generate that object.
 
 The \code{GeneSource} list item within each of the four results objects
-describes where the predicted genes came from (either "Genbank",
+describes where the predicted genes came from (either "GenBank",
 "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 }
 

@@ -4,7 +4,7 @@
 \name{ATCC17978}
 \alias{ATCC17978}
 \alias{ATCC17978_PreSaved_DataMapObj}
-\alias{ATCC17978_PreSaved_ResultsObj_Genbank}
+\alias{ATCC17978_PreSaved_ResultsObj_GenBank}
 \alias{ATCC17978_PreSaved_ResultsObj_GeneMarkS2}
 \alias{ATCC17978_PreSaved_ResultsObj_Glimmer}
 \alias{ATCC17978_PreSaved_ResultsObj_Prodigal}
@@ -16,11 +16,11 @@ package.}
 \source{
 NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 
-Genbank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000521.1}
+GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000521.1}
 }
 \usage{
 data(ATCC17978_PreSaved_DataMapObj)
-data(ATCC17978_PreSaved_ResultsObj_Genbank)
+data(ATCC17978_PreSaved_ResultsObj_GenBank)
 data(ATCC17978_PreSaved_ResultsObj_GeneMarkS2)
 data(ATCC17978_PreSaved_ResultsObj_Glimmer)
 data(ATCC17978_PreSaved_ResultsObj_Prodigal)
@@ -33,8 +33,8 @@ subclass \code{DataMap} or subclass \code{Results} for
 \details{
 'ATCC17978_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 
-'ATCC17978_PreSaved_ResultsObj_Genbank' is an object of subclass
-\code{Results} with predicted genes from the Genbank databse.
+'ATCC17978_PreSaved_ResultsObj_GenBank' is an object of subclass
+\code{Results} with predicted genes from the GenBank databse.
 
 'ATCC17978_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -66,7 +66,7 @@ package.
 
 \section{Results objects}{
 
-The 4 results objects, 'ATCC17978_PreSaved_ResultsObj_Genbank',
+The 4 results objects, 'ATCC17978_PreSaved_ResultsObj_GenBank',
 'ATCC17978_PreSaved_ResultsObj_GeneMarkS2',
 'ATCC17978_PreSaved_ResultsObj_Glimmer', and
 'ATCC17978_PreSaved_ResultsObj_Prodigal', store how much evidence there is
@@ -75,8 +75,8 @@ genome. The four objects were built using the \code{AssessGenes} function
 from the \pkg{AssessORF} package, a set of genes, and the mapping object
 described here.
 
-For the Genbank object, the genes were downloaded from the
-corresponding record in the Genbank database. For the other three objects,
+For the GenBank object, the genes were downloaded from the
+corresponding record in the GenBank database. For the other three objects,
 GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
 settings in order to generate the set of predicted genes for the
 corresponding results object.
@@ -86,7 +86,7 @@ within each of the four results objects provide positional information on
 the set of predicted genes used to generate that object.
 
 The \code{GeneSource} list item within each of the four results objects
-describes where the predicted genes came from (either "Genbank",
+describes where the predicted genes came from (either "GenBank",
 "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
 }
 
