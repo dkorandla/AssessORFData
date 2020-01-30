@@ -4,7 +4,7 @@
 \name{AssessORF_StrainIDs}
 \alias{AssessORF_StrainIDs}
 \title{Vector of strain IDs used in the package}
-\format{Character vector of length 20}
+\format{Character vector of length 26}
 \usage{
 data(AssessORF_StrainIDs)
 }

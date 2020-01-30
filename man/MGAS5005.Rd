@@ -14,6 +14,8 @@
 types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
 package.}
 \source{
+Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD012568}
+
 NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 
 GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000017.2}
@@ -34,7 +36,7 @@ subclass \code{DataMap} or subclass \code{Results} for
 'MGAS5005_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 
 'MGAS5005_PreSaved_ResultsObj_GenBank' is an object of subclass
-\code{Results} with predicted genes from the GenBank databse.
+\code{Results} with predicted genes from the GenBank database.
 
 'MGAS5005_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -56,13 +58,14 @@ each object are listed below.
 
 The mapping object, 'MGAS5005_PreSaved_DataMapObj', stores the mapping of
 proteomics evidence and evolutionary conservation evidence to the strain's
-genome. The proteomics data was generated in house and will be available on
-ProteomeXchange soon. The related genomes used to determine evolutionary
-conservation all came from the family, Streptococcaceae exculding anomalous
-genomes and non-complete \emph{Streptococcus pneumoniae} genomes. Links to
-their sequences were downloaded from NCBI's Genome Browser. The object was
-built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
-package.
+genome. The proteomics data was generated in-house and collected as part of
+the work for the AssessORF paper. The raw mass spectra data can be found at
+ProteomeXchange dataset PXD012568. The related genomes used to determine
+evolutionary conservation all came from the family, Streptococcaceae
+exculding anomalous genomes and non-complete \emph{Streptococcus pneumoniae}
+genomes. Links to their sequences were downloaded from NCBI's Genome Browser.
+The object was built using the \code{MapAssessmentData} function from the
+\pkg{AssessORF} package.
 }
 
 \section{Results objects}{
@@ -78,8 +81,8 @@ described here.
 
 For the GenBank object, the genes were downloaded from the
 corresponding record in the GenBank database. For the other three objects,
-GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-settings in order to generate the set of predicted genes for the
+GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+default settings in order to generate the set of predicted genes for the
 corresponding results object.
 
 The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}

@@ -36,7 +36,7 @@ subclass \code{DataMap} or subclass \code{Results} for
 'CNRZ327_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 
 'CNRZ327_PreSaved_ResultsObj_GenBank' is an object of subclass
-\code{Results} with predicted genes from the GenBank databse.
+\code{Results} with predicted genes from the GenBank database.
 
 'CNRZ327_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -79,8 +79,8 @@ described here.
 
 For the GenBank object, the genes were downloaded from the
 corresponding record in the GenBank database. For the other three objects,
-GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-settings in order to generate the set of predicted genes for the
+GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+default settings in order to generate the set of predicted genes for the
 corresponding results object.
 
 The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
