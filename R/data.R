@@ -3,7 +3,7 @@
 #' @description Vector of strain IDs, which describes the strains for which the
 #' package has data
 #'
-#' @format Character vector of length 20
+#' @format Character vector of length 26
 #'
 #' @usage
 #' data(AssessORF_StrainIDs)
@@ -41,7 +41,7 @@
 #' 'ATCC11842_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'ATCC11842_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'ATCC11842_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -81,8 +81,8 @@
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -137,7 +137,7 @@ NULL
 #' 'ATCC13032_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'ATCC13032_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'ATCC13032_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -177,8 +177,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -234,7 +234,7 @@ NULL
 #' 'ATCC17978_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'ATCC17978_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'ATCC17978_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -255,12 +255,13 @@ NULL
 #' @section Mapping object:
 #' The mapping object, 'ATCC17978_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
-#' genome. The proteomics data was generated in house and will be available on
-#' ProteomeXchange soon. The related genomes used to determine evolutionary
-#' conservation all came from the genus Acinetobacter, and links to their
-#' sequences were downloaded from NCBI's Genome Browser. The object was built
-#' using the \code{MapAssessmentData} function from the \pkg{AssessORF}
-#' package.
+#' genome. The proteomics data was generated in-house and collected as part of
+#' the work for the AssessORF paper. The raw mass spectra data can be found at
+#' ProteomeXchange dataset PXD012539. The related genomes used to determine
+#' evolutionary conservation all came from the genus Acinetobacter, and links
+#' to their sequences were downloaded from NCBI's Genome Browser. The object
+#' was built using the \code{MapAssessmentData} function from the
+#' \pkg{AssessORF} package.
 #'
 #' @section Results objects:
 #' The 4 results objects, 'ATCC17978_PreSaved_ResultsObj_GenBank',
@@ -274,8 +275,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -291,6 +292,8 @@ NULL
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD012539}
+#'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
 #' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000521.1}
@@ -328,7 +331,7 @@ NULL
 #' 'ATCC700084_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'ATCC700084_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'ATCC700084_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -368,8 +371,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -426,7 +429,7 @@ NULL
 #' 'CCMP1375_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'CCMP1375_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'CCMP1375_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -466,8 +469,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -522,7 +525,7 @@ NULL
 #' 'CECT5344_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'CECT5344_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'CECT5344_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -562,8 +565,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -618,7 +621,7 @@ NULL
 #' 'CNRZ327_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'CNRZ327_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'CNRZ327_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -658,8 +661,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -713,7 +716,7 @@ NULL
 #' 'COH1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'COH1_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'COH1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -734,13 +737,14 @@ NULL
 #' @section Mapping object:
 #' The mapping object, 'COH1_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
-#' genome. The proteomics data was generated in house and will be available on
-#' ProteomeXchange soon. The related genomes used to determine evolutionary
-#' conservation all came from the family Streptococcaceae, exculding anomalous
-#' genomes and non-complete \emph{Streptococcus pneumoniae} genomes. Links to
-#' their sequences were downloaded from NCBI's Genome Browser. The object was
-#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
-#' package.
+#' genome. The proteomics data was generated in-house and collected as part of
+#' the work for the AssessORF paper. The raw mass spectra data can be found at
+#' ProteomeXchange dataset PXD012567. The related genomes used to determine
+#' evolutionary conservation all came from the family Streptococcaceae,
+#' exculding anomalous genomes and non-complete \emph{Streptococcus pneumoniae}
+#' genomes. Links to their sequences were downloaded from NCBI's Genome Browser.
+#' The object was built using the \code{MapAssessmentData} function from the
+#' \pkg{AssessORF} package.
 #'
 #' @section Results objects:
 #' The 4 results objects, 'COH1_PreSaved_ResultsObj_GenBank',
@@ -754,8 +758,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -771,6 +775,8 @@ NULL
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD012567}
+#'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
 #' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/HG939456.1}
@@ -807,7 +813,7 @@ NULL
 #' 'D_UW_3_CX_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'D_UW_3_CX_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'D_UW_3_CX_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -847,8 +853,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -902,7 +908,7 @@ NULL
 #' 'EGD_e_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'EGD_e_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'EGD_e_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -942,8 +948,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -997,7 +1003,7 @@ NULL
 #' 'H37Rv_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'H37Rv_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'H37Rv_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1037,8 +1043,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1093,7 +1099,7 @@ NULL
 #' 'Houston_1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'Houston_1_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'Houston_1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1133,8 +1139,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1188,7 +1194,7 @@ NULL
 #' 'Il1403_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'Il1403_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'Il1403_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1229,8 +1235,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1286,7 +1292,7 @@ NULL
 #' 'K_12_MG1655_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'K_12_MG1655_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'K_12_MG1655_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1326,8 +1332,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1381,7 +1387,7 @@ NULL
 #' 'LAL14_1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'LAL14_1_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'LAL14_1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1421,8 +1427,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1476,7 +1482,7 @@ NULL
 #' 'MGAS5005_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'MGAS5005_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'MGAS5005_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1497,13 +1503,14 @@ NULL
 #' @section Mapping object:
 #' The mapping object, 'MGAS5005_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
-#' genome. The proteomics data was generated in house and will be available on
-#' ProteomeXchange soon. The related genomes used to determine evolutionary
-#' conservation all came from the family, Streptococcaceae exculding anomalous
-#' genomes and non-complete \emph{Streptococcus pneumoniae} genomes. Links to
-#' their sequences were downloaded from NCBI's Genome Browser. The object was
-#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
-#' package.
+#' genome. The proteomics data was generated in-house and collected as part of
+#' the work for the AssessORF paper. The raw mass spectra data can be found at
+#' ProteomeXchange dataset PXD012568. The related genomes used to determine
+#' evolutionary conservation all came from the family, Streptococcaceae
+#' exculding anomalous genomes and non-complete \emph{Streptococcus pneumoniae}
+#' genomes. Links to their sequences were downloaded from NCBI's Genome Browser.
+#' The object was built using the \code{MapAssessmentData} function from the
+#' \pkg{AssessORF} package.
 #'
 #' @section Results objects:
 #' The 4 results objects, 'MGAS5005_PreSaved_ResultsObj_GenBank',
@@ -1517,8 +1524,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1534,6 +1541,8 @@ NULL
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD012568}
+#'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
 #' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000017.2}
@@ -1570,7 +1579,7 @@ NULL
 #' 'PAO1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'PAO1_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'PAO1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1610,8 +1619,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1668,7 +1677,7 @@ NULL
 #' 'SL1344_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'SL1344_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'SL1344_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1708,8 +1717,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1765,7 +1774,7 @@ NULL
 #' 'Strain168_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'Strain168_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'Strain168_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1805,8 +1814,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1860,7 +1869,7 @@ NULL
 #' 'TCH1516_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
 #'
 #' 'TCH1516_PreSaved_ResultsObj_GenBank' is an object of subclass
-#' \code{Results} with predicted genes from the GenBank databse.
+#' \code{Results} with predicted genes from the GenBank database.
 #'
 #' 'TCH1516_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
 #' \code{Results} with predicted genes from the program GeneMarkS-2.
@@ -1881,12 +1890,13 @@ NULL
 #' @section Mapping object:
 #' The mapping object, 'TCH1516_PreSaved_DataMapObj', stores the mapping of
 #' proteomics evidence and evolutionary conservation evidence to the strain's
-#' genome. The proteomics data was generated in house and will be available on
-#' ProteomeXchange soon. The related genomes used to determine evolutionary
-#' conservation all came from the genus Staphylococcus, and links to their
-#' sequences were downloaded from NCBI's Genome Browser. The object was
-#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
-#' package.
+#' genome. The proteomics data was generated in-house and collected as part of
+#' the work for the AssessORF paper. The raw mass spectra data can be found at
+#' ProteomeXchange dataset PXD012538. The related genomes used to determine
+#' evolutionary conservation all came from the genus Staphylococcus, and links
+#' to their sequences were downloaded from NCBI's Genome Browser. The object
+#' was built using the \code{MapAssessmentData} function from the
+#' \pkg{AssessORF} package.
 #'
 #' @section Results objects:
 #' The 4 results objects, 'TCH1516_PreSaved_ResultsObj_GenBank',
@@ -1900,8 +1910,8 @@ NULL
 #'
 #' For the GenBank object, the genes were downloaded from the
 #' corresponding record in the GenBank database. For the other three objects,
-#' GenemarkS-2, Prodigal (2.6.3), and Glimmer (3.02) were run at default
-#' settings in order to generate the set of predicted genes for the
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
 #' corresponding results object.
 #'
 #' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
@@ -1917,8 +1927,591 @@ NULL
 #' the genome sequence for the strain to your local machine.
 #'
 #' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD012538}
+#'
 #' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
 #'
 #' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP000730.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name AP1
+#'
+#' @aliases AP1_PreSaved_DataMapObj AP1_PreSaved_ResultsObj_GenBank
+#' AP1_PreSaved_ResultsObj_GeneMarkS2
+#' AP1_PreSaved_ResultsObj_Glimmer AP1_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Streptococcus pyogenes} strain AP1
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Streptococcus pyogenes} strain AP1
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(AP1_PreSaved_DataMapObj)
+#' data(AP1_PreSaved_ResultsObj_GenBank)
+#' data(AP1_PreSaved_ResultsObj_GeneMarkS2)
+#' data(AP1_PreSaved_ResultsObj_Glimmer)
+#' data(AP1_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'AP1_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'AP1_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'AP1_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'AP1_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'AP1_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: AP1
+#' \item \code{Species}: S. pyogenes
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'AP1_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD006345. The related genomes used to determine evolutionary
+#' conservation all came from the family, Streptococcaceae exculding anomalous
+#' genomes and non-complete \emph{Streptococcus pneumoniae} genomes. Links to
+#' their sequences were downloaded from NCBI's Genome Browser. The object was
+#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'AP1_PreSaved_ResultsObj_GenBank',
+#' 'AP1_PreSaved_ResultsObj_GeneMarkS2',
+#' 'AP1_PreSaved_ResultsObj_Glimmer', and
+#' 'AP1_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("AP1", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD006345}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/CP007537.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name BW25113
+#'
+#' @aliases BW25113_PreSaved_DataMapObj
+#' BW25113_PreSaved_ResultsObj_GenBank
+#' BW25113_PreSaved_ResultsObj_GeneMarkS2
+#' BW25113_PreSaved_ResultsObj_Glimmer
+#' BW25113_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Escherichia coli} strain BW25113
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Escherichia coli} strain BW25113
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(BW25113_PreSaved_DataMapObj)
+#' data(BW25113_PreSaved_ResultsObj_GenBank)
+#' data(BW25113_PreSaved_ResultsObj_GeneMarkS2)
+#' data(BW25113_PreSaved_ResultsObj_Glimmer)
+#' data(BW25113_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'BW25113_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'BW25113_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'BW25113_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'BW25113_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'BW25113_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: BW25113
+#' \item \code{Species}: E. coli
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'BW25113_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD000498. The related genomes used to determine evolutionary
+#' conservation all came from the genus Escherichia, and links to their
+#' sequences were downloaded from NCBI's Genome Browser. The object was built
+#' using the \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'BW25113_PreSaved_ResultsObj_GenBank',
+#' 'BW25113_PreSaved_ResultsObj_GeneMarkS2',
+#' 'BW25113_PreSaved_ResultsObj_Glimmer', and
+#' 'BW25113_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("BW25113", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000498}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP009273.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name HG001
+#'
+#' @aliases HG001_PreSaved_DataMapObj HG001_PreSaved_ResultsObj_GenBank
+#' HG001_PreSaved_ResultsObj_GeneMarkS2
+#' HG001_PreSaved_ResultsObj_Glimmer HG001_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Staphylococcus aureus} subsp. \emph{aureus} strain HG001
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Staphylococcus aureus} subsp. \emph{aureus} strain HG001
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(HG001_PreSaved_DataMapObj)
+#' data(HG001_PreSaved_ResultsObj_GenBank)
+#' data(HG001_PreSaved_ResultsObj_GeneMarkS2)
+#' data(HG001_PreSaved_ResultsObj_Glimmer)
+#' data(HG001_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'HG001_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'HG001_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'HG001_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'HG001_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'HG001_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: HG001
+#' \item \code{Species}: S. aureus
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'HG001_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD000702. The related genomes used to determine evolutionary
+#' conservation all came from the genus Staphylococcus, and links to their
+#' sequences were downloaded from NCBI's Genome Browser. The object was
+#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'HG001_PreSaved_ResultsObj_GenBank',
+#' 'HG001_PreSaved_ResultsObj_GeneMarkS2',
+#' 'HG001_PreSaved_ResultsObj_Glimmer', and
+#' 'HG001_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("HG001", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine. Note that this
+#' genome comes from accession CP018205.1, which has the same genome sequence
+#' as accession NZ_CP018205.1. Unlike NZ_CP018205.1 however, CP018205.1 does
+#' not have any associated GenBank genes.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000702}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP018205.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name MG1363
+#'
+#' @aliases MG1363_PreSaved_DataMapObj MG1363_PreSaved_ResultsObj_GenBank
+#' MG1363_PreSaved_ResultsObj_GeneMarkS2
+#' MG1363_PreSaved_ResultsObj_Glimmer MG1363_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Lactococcus lactis} subsp. \emph{cremoris} strain MG1363
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Lactococcus lactis} subsp. \emph{cremoris} strain MG1363
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(MG1363_PreSaved_DataMapObj)
+#' data(MG1363_PreSaved_ResultsObj_GenBank)
+#' data(MG1363_PreSaved_ResultsObj_GeneMarkS2)
+#' data(MG1363_PreSaved_ResultsObj_Glimmer)
+#' data(MG1363_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'MG1363_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'MG1363_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'MG1363_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'MG1363_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'MG1363_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: MG1363
+#' \item \code{Species}: L. lactis
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'MG1363_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD011263. The related genomes used to determine evolutionary
+#' conservation all came from the family, Streptococcaceae exculding anomalous
+#' genomes and non-complete \emph{Streptococcus pneumoniae} genomes. Links to
+#' their sequences were downloaded from NCBI's Genome Browser. The object was
+#' built using the \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'MG1363_PreSaved_ResultsObj_GenBank',
+#' 'MG1363_PreSaved_ResultsObj_GeneMarkS2',
+#' 'MG1363_PreSaved_ResultsObj_Glimmer', and
+#' 'MG1363_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("MG1363", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011263}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/AM406671.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name NCIB_3610
+#'
+#' @aliases NCIB_3610_PreSaved_DataMapObj
+#' NCIB_3610_PreSaved_ResultsObj_GenBank
+#' NCIB_3610_PreSaved_ResultsObj_GeneMarkS2
+#' NCIB_3610_PreSaved_ResultsObj_Glimmer
+#' NCIB_3610_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Bacillus subtilis} subsp. \emph{subtilis} strain NCIB 3610
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Bacillus subtilis} subsp. \emph{subtilis} strain NCIB 3610
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(NCIB_3610_PreSaved_DataMapObj)
+#' data(NCIB_3610_PreSaved_ResultsObj_GenBank)
+#' data(NCIB_3610_PreSaved_ResultsObj_GeneMarkS2)
+#' data(NCIB_3610_PreSaved_ResultsObj_Glimmer)
+#' data(NCIB_3610_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'NCIB_3610_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'NCIB_3610_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'NCIB_3610_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'NCIB_3610_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'NCIB_3610_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: NCIB_3610
+#' \item \code{Species}: B. subtilis
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'NCIB_3610_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD006444. The related genomes used to determine evolutionary
+#' conservation all came from the genus Bacillus, and links to their
+#' sequences were downloaded from NCBI's Genome Browser. The object was built
+#' using the \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'NCIB_3610_PreSaved_ResultsObj_GenBank',
+#' 'NCIB_3610_PreSaved_ResultsObj_GeneMarkS2',
+#' 'NCIB_3610_PreSaved_ResultsObj_Glimmer', and
+#' 'NCIB_3610_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("NCIB_3610", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD006444}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NZ_CM000488.1}
+#'
+NULL
+
+#' @docType data
+#'
+#' @name Strain10403S
+#'
+#' @aliases Strain10403S_PreSaved_DataMapObj
+#' Strain10403S_PreSaved_ResultsObj_GenBank
+#' Strain10403S_PreSaved_ResultsObj_GeneMarkS2
+#' Strain10403S_PreSaved_ResultsObj_Glimmer
+#' Strain10403S_PreSaved_ResultsObj_Prodigal
+#'
+#' @title \code{Assessment} Objects for
+#' \emph{Listeria monocytogenes} strain 10403S
+#'
+#' @description Objects of class \code{Assessment} and either
+#' subclass \code{DataMap} or subclass \code{Results} for
+#' \emph{Listeria monocytogenes} strain 10403S
+#'
+#' @format All 5 objects have a list structure. For specifics on what the two
+#' types of \code{Assessment} objects contain, please see the \pkg{AssessORF}
+#' package.
+#'
+#' @usage
+#' data(Strain10403S_PreSaved_DataMapObj)
+#' data(Strain10403S_PreSaved_ResultsObj_GenBank)
+#' data(Strain10403S_PreSaved_ResultsObj_GeneMarkS2)
+#' data(Strain10403S_PreSaved_ResultsObj_Glimmer)
+#' data(Strain10403S_PreSaved_ResultsObj_Prodigal)
+#'
+#' @details
+#' 'Strain10403S_PreSaved_DataMapObj' is an object of subclass \code{DataMap}.
+#'
+#' 'Strain10403S_PreSaved_ResultsObj_GenBank' is an object of subclass
+#' \code{Results} with predicted genes from the GenBank database.
+#'
+#' 'Strain10403S_PreSaved_ResultsObj_GeneMarkS2' is an object of subclass
+#' \code{Results} with predicted genes from the program GeneMarkS-2.
+#'
+#' 'Strain10403S_PreSaved_ResultsObj_Glimmer' is an object of subclass
+#' \code{Results} with predicted genes from the program Glimmer.
+#'
+#' 'Strain10403S_PreSaved_ResultsObj_Prodigal' is an object of subclass
+#' \code{Results} with predicted genes from the program Prodigal.
+#'
+#' For all 5 objects, values of two key identifying list items within
+#' each object are listed below.
+#' \itemize{
+#' \item \code{StrainID}: Strain10403S
+#' \item \code{Species}: L. monocytogenes
+#' }
+#'
+#' @section Mapping object:
+#' The mapping object, 'Strain10403S_PreSaved_DataMapObj', stores the mapping of
+#' proteomics evidence and evolutionary conservation evidence to the strain's
+#' genome. The raw proteomics mass spectra data came from  ProteomeXchange
+#' dataset PXD010000. The related genomes used to determine evolutionary
+#' conservation all came from the genus Listeria, and links to their sequences
+#' were downloaded from NCBI's Genome Browser. The object was built using the
+#' \code{MapAssessmentData} function from the \pkg{AssessORF}
+#' package.
+#'
+#' @section Results objects:
+#' The 4 results objects, 'Strain10403S_PreSaved_ResultsObj_GenBank',
+#' 'Strain10403S_PreSaved_ResultsObj_GeneMarkS2',
+#' 'Strain10403S_PreSaved_ResultsObj_Glimmer', and
+#' 'Strain10403S_PreSaved_ResultsObj_Prodigal', store how much evidence there is
+#' supporting or against each gene in a set of predicted genes for the strain's
+#' genome. The four objects were built using the \code{AssessGenes} function
+#' from the \pkg{AssessORF} package, a set of genes, and the mapping object
+#' described here.
+#'
+#' For the GenBank object, the genes were downloaded from the
+#' corresponding record in the GenBank database. For the other three objects,
+#' GenemarkS-2 (web server), Prodigal (2.6.3), and Glimmer (3.02) were run at
+#' default settings in order to generate the set of predicted genes for the
+#' corresponding results object.
+#'
+#' The \code{GeneLeftPos}, \code{GeneRightPos}, and the \code{GeneStrand}
+#' within each of the four results objects provide positional information on
+#' the set of predicted genes used to generate that object.
+#'
+#' The \code{GeneSource} list item within each of the four results objects
+#' describes where the predicted genes came from (either "GenBank",
+#' "GeneMarkS2", "Glimmer", or "Prodigal" respectively).
+#'
+#' @section Getting the strain's genome:
+#' Use \code{SaveGenomeToPath("Strain10403S", <INSERT FILE PATH HERE>)} to save
+#' the genome sequence for the strain to your local machine.
+#'
+#' @source
+#' Proteomcis data: \url{http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010000}
+#'
+#' NCBI's Genome Browser: \url{https://www.ncbi.nlm.nih.gov/genome/browse/#!/prokaryotes/}
+#'
+#' GenBank record: \url{https://www.ncbi.nlm.nih.gov/nuccore/NC_017544.1}
 #'
 NULL
